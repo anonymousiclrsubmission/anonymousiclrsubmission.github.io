@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Repurposing Diffusion-Based Image Models for Panorama Generation</title>
+
+  <link href="https://fonts.googleapis.com/css?family=Noto+Sans|Castoro" rel="stylesheet">
+
+  <link rel="stylesheet" href="./static/css/bulma.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="./static/css/index.css">
+  <link rel="stylesheet" href="./static/css/pannellum.css"/>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="./static/js/fontawesome.all.min.js"></script>
+  <script src="./static/js/bulma-carousel.min.js"></script>
+  <script src="./static/js/bulma-slider.min.js"></script>
+  <script src="./static/js/index.js"></script>
+  <script src="./static/js/video_comparison.js"></script>
+  <script src="./static/js/pannellum.js"></script>
+</head>
+
+<body>
+
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered">
+          <div class="column has-text-centered">
+
+            <h1 class="title is-1 publication-title">Repurposing Diffusion-Based Image Models for Panorama Generation</h1>
+            <div class="is-size-4 publication-authors">
+             Anonymus ICLR submission #1203
+            </div>
+  
+            <div class="is-size-4 publication-authors">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">   
+
+      <div class="tabs is-centered" id="myTabs">
+        <ul></ul>
+      </div>
+
+      <div id="tabContent"></div>
+    </div>
+  </section>
+
+  <section class="section" id="teaser">
+    <div class="container is-max-desktop">
+      <div class="columns is-mobile has-text-centered is-vcentered ">
+        
+        <div class="column is-half is-vcentered">
+          <h4 class="title is-size-5">Conditioning</h4>
+          <i id="cond-text"> test </i>
+          <div class="pt-5" id="cond-image"></div>
+        </div>
+        <div class="column is-half is-vcentered">
+          <h4 class="title is-size-">Panorama</h4>
+          <div id="panorama"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</body>
+
+</html>
