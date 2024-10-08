@@ -117,6 +117,8 @@ $(document).ready(function () {
 
   // Button click handling
   $('#tabContent button').click(function() {
+    $('#tabContent button').removeClass('is-active');
+    $(this).addClass('is-active');
     var tabIndex = $(this).data('tab-index');
     var buttonIndex = $(this).data('button-index');
     var link = $(this).data('link'); 
