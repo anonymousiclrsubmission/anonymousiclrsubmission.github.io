@@ -54,7 +54,7 @@ let tabData = [
     { name: "Babel", link: "./static/images/ours/ood/babel_generated_2.png", cond: "./static/images/ours/ood/babel_generated_2", text: ''},
     { name: "Alice", link: "./static/images/ours/ood/alice6_generated.png", cond: "./static/images/ours/ood/alice6_generated", text: ''},
     { name: "Alice 2", link: "./static/images/ours/ood/alice3_generated.png", cond: "./static/images/ours/ood/alice3_generated", text: ''},
-    { name: "Abandoned", link: "./static/images/ours/ood/abandoned_2_generated.png", cond: "./static/images/ours/ood/abandoned_2_generated", text: ''},
+    { name: "Abandoned", link: "./static/images/ours/ood/abandoned_2_generated.jpeg", cond: "./static/images/ours/ood/abandoned_2_generated", text: ''},
     { name: "Tree", link: "./static/images/ours/ood/lonelytree.png", cond: "./static/images/ours/ood/lonelytree", text: ''},
     { name: "Balloon", link: "./static/images/ours/ood/hotairballoon_generated.png", cond: "./static/images/ours/ood/hotairballoon_generated", text: ''},
     { name: "Starry Night 2", link: "./static/images/ours/ood/van_gogh_starry_night_generated_2.png", cond: "./static/images/ours/ood/van_gogh_starry_night_generated_2", text: ''},
